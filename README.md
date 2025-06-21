@@ -18,13 +18,17 @@ lab/
 ---
 
 ## 🚀 How to Run the Tests
-
-1. Make sure you have **Node.js** installed.
-2. Install the required test dependencies (mocha, chai):
+1. **Fork this repository** to your GitHub account.
+2. **Clone** the forked repository to your local machine:
+   ```bash
+   git clone https://github.com/your-username/your-forked-repo.git
+   cd your-forked-repo
+3. Make sure you have **Node.js** installed.
+4. Install the required dependencies (Mocha and Chai are already listed in package.json):   
    ```bash
    npm install
    ```
-3. Run the tests as below (package.json already contains a test script):
+5. Run the tests as below (package.json already contains a test script):
    ```bash
    npm test
    ```
