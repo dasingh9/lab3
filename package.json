@@ -1,0 +1,20 @@
+{
+  "name": "Module 3 Lab - Unit tests",
+  "version": "1.0.0",
+  "description": "Welcome to this lab exercise! In this activity, you'll practice writing functions to make test cases pass. From simple arithmetic to emoji fun, string and array manipulation, you'll tackle real-world logic challenges using JavaScript. 🧠✨",
+  "main": "index.js",
+  "type": "module",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^5.2.0",
+    "mocha": "^11.7.0"
+  }
+}
